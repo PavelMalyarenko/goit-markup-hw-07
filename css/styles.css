@@ -612,6 +612,7 @@ a {
   transform: translateY(-100%);
 }
 
+/*----backdrop-modal----*/
 .backdrop {
   width: 100vw;
   height: 100vh;
@@ -820,6 +821,9 @@ a {
   border-radius: 4px;
 }
 .footer-form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-width: 200px;
   height: 50px;
   cursor: pointer;
