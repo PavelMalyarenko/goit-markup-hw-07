@@ -12,12 +12,14 @@
 .work-list {
   display: flex;
 }
-.work-list .work-item:first-child {
-  margin-left: 0;
-}
+
 .work-item {
   margin-left: 30px;
   position: relative;
+
+  .work-list &:first-child {
+    margin-left: 0;
+  }
 }
 .label {
   display: flex;

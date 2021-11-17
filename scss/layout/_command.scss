@@ -18,10 +18,12 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-right: 30px;
+
+  .command-list &:last-child {
+    margin-right: 0;
+  }
 }
-.command-list .command-item:last-child {
-  margin-right: 0;
-}
+
 .command-item-discription {
   padding-bottom: 30px;
   padding-top: 30px;
