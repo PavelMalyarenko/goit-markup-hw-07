@@ -1,16 +1,19 @@
-.footer-section {
+.footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.main-footer-conteiner {
+.footer__conteiner {
   align-items: baseline;
   display: flex;
 }
-.address-section {
+.logo__white {
+  color: var(--secondary-text-color);
+}
+.footer__address {
   margin-top: 20px;
 }
-.address-item {
+.footer__address--item {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -19,7 +22,7 @@
   margin-bottom: 9px;
   display: block;
 }
-.footer-mail {
+.footer__address--mail {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -28,7 +31,7 @@
   display: block;
   margin-bottom: 9px;
 }
-.footer-tel {
+.footer__address--tel {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -36,10 +39,10 @@
   color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
 }
-.contacts-info {
+.footer__contacts {
   margin-right: 70px;
 }
-.footer-title {
+.footer__social--title {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
